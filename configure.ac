@@ -92,7 +92,7 @@ fi
 AC_MSG_RESULT([${NAUTILUS_EXTENSION_DIR}])
 AC_SUBST(NAUTILUS_EXTENSION_DIR)
 
-NAUTILUS_VERSION=`$PKG_CONFIG --modversion libnautilus-extension`
+NAUTILUS_VERSION=`$PKG_CONFIG --modversion libnautilus-extension-4`
 if test -n "$NAUTILUS_VERSION"; then
     NAUTILUS_VERSION_MAJOR=`echo -n $NAUTILUS_VERSION | cut -d . -f 1`
     NAUTILUS_VERSION_MINOR=`echo -n $NAUTILUS_VERSION | cut -d . -f 2`
