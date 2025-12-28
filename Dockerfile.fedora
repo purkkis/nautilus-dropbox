@@ -1,4 +1,4 @@
-FROM fedora:43
+FROM fedora:REPLACE_ME
 
 COPY install-rpm-deps.sh .
 RUN ./install-rpm-deps.sh
